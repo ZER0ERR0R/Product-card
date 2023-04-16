@@ -12,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-size: 14px;
 }
 .card {
     background-color: white;
@@ -87,6 +88,10 @@ body {
 }
 .card_content .btn:hover {
     background-color: hsl(159, 97%, 14%);
+}
+footer {
+    position: fixed;
+    bottom: 1em;
 }
 
 @media only screen and (max-width: 550px) {
