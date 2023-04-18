@@ -33,7 +33,7 @@ body {
   object-fit: cover;
 }
 .article {
-  margin: 20px 30px;
+  margin: 20px 30px 20px 35px;
   width: 50%;
 }
 
@@ -48,7 +48,8 @@ body {
 .article .name {
   color: hsl(212, 21%, 14%);
   font-family: "Fraunces", serif;
-  padding: 5px 40px 20px 0px;
+  padding: 5px 20px 20px 0px;
+  font-size: 32px;
 }
 
 .article .detail {
@@ -57,7 +58,7 @@ body {
   padding-right: 20px;
 }
 .prices {
-  margin: 20px 0;
+  margin: 25px 0;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -78,7 +79,7 @@ body {
   color: white;
   background-color: hsl(158, 36%, 37%);
   width: 100%;
-  padding: 15px 0;
+  padding: 15px 0px;
   margin: 10px 0;
   border-radius: 10px;
   font-weight: 700;
