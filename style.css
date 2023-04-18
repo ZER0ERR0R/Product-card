@@ -42,19 +42,18 @@ body {
   letter-spacing: 5px;
   text-transform: uppercase;
   margin: 10px 0;
+  font-size: 12px;
 }
 
 .article .name {
   color: hsl(212, 21%, 14%);
   font-family: "Fraunces", serif;
-  font-size: 30px;
-  padding: 5px 20px 20px 0px;
-  font-size: 35px;
+  padding: 5px 40px 20px 0px;
 }
 
 .article .detail {
   color: hsl(228, 12%, 48%);
-  line-height: 1.3rem;
+  line-height: 1.5rem;
   padding-right: 20px;
 }
 .prices {
@@ -95,8 +94,14 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
   .container {
-    width: 390px;
+    width: 375px;
   }
   .card {
     width: 100%;
@@ -118,7 +123,12 @@ body {
     padding: 20px 0;
     font-size: 15px;
   }
+  .article .name{
+    font-size: 33px;
+    padding-right: 0px;
+  }
   .article .detail {
-    padding-right: 40px;
+    font-size: 15px;
+    padding-right: 5px;
   }
 }
